@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"></meta>
-        <title>淡江大學租借網站</title>    
+        <title>淡江大學租借網站</title>
+        <a href="Test.html">首頁</a>
     </head>
 </html>
