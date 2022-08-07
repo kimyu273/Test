@@ -22,9 +22,10 @@
                 <li><a href="https://space.in.tku.edu.tw/login">立即預約</a></li>
                 &emsp;
                 <li><img src="qrcode.jpg" border="0" width="50" height="50"/></li>
+                &emsp;
                 <div class="contain">
-                    <p style="font-size:15px;color:#b22222"><strong>更多資訊請掃LINE客服</strong></p>
-                 </div>
+                    <p style="font-size:14px;color:#b22222"><strong>更多資訊請掃LINE客服</strong></p>
+                </div>
             </ul>
         </nav>
         </body>
@@ -35,7 +36,6 @@
         <marquee class="GeneratedMarquee" direction="left" scrollamount="10" behavior="scroll"><strong>歡迎光臨教室租借與導覽網站 本網站影片採用360度環景拍攝</strong></marquee>
         </ul>
     
-        &emsp;
         <div class="flex">
             <div class="slider">
             <img id="slider" src="https://www.tku.edu.tw/images/pic/internation.jpg" width="560" height="400">
@@ -71,8 +71,14 @@
         .youtube{
             display: flex;
             margin-left: 1cm;
-            
             justify-content: right;
+            align-items: center;
+            flex:row;
+        }
+        .contain{
+            display: flex;
+            margin-right: 0.3cm;
+            justify-content: left;
             align-items: center;
             flex:row;
         }
@@ -191,9 +197,6 @@ box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
         text-decoration: none;  /* 移除超連結底線 */
     }
     nav > ul {
-        list-style: none;   /* 移除項目符號 */
-    }
-    nav > ul {
         background-color: #e4e4e4;
         list-style: none;   /* 移除項目符號 */
         margin: 0;
@@ -205,6 +208,10 @@ box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
         font-size: 28px;
         padding: 10px;
         text-decoration: none;  /* 移除超連結底線 */
+    }
+    nav img{
+        display: flex;
+        margin-top: 0.1cm;
     }
     /* 滑鼠移到 <a> 時變成深底淺色 */
     nav a:hover {
@@ -235,27 +242,18 @@ box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
             min-height: 100%;
             width: 100%;
         }
-    .bottom-text {
-        display: flex;
-            margin: 10px;
-            justify-content: left;
-            align-items: center;
-            flex:row;
-        }
-
 </style>
 
     <footer>
-        <p style="font-size:16px;color:#ffffff"><strong>地址:251301 新北市淡水區英專路151號&emsp;&emsp;&emsp;&emsp;電話:+886-2-2621-5656 ext.2232</strong></p>
-        <p style="font-size:16px;color:#ffffff"><strong>No.151, Yingzhuan Rd., Tamsui Dist., New Taipei City 251301, Taiwan (R.O.C.)</strong></p>
+        <p style="font-size:16px;color:#ffffff"><strong>地址:251301 新北市淡水區英專路151號&emsp;&emsp;&emsp;電話:+886-2-2621-5656 <br> No.151, Yingzhuan Rd., Tamsui Dist., New Taipei City 251301, Taiwan (R.O.C.)</strong></p>
       </footer>
 
     <style>
         footer {
-            height: 90px;
+            height: 60px;
             text-align: center;
             background-color: #b22222;
-            line-height: 50px;
+            line-height: 30px;
         }
         p {
             margin: 0;
