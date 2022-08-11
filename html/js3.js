@@ -1,6 +1,6 @@
 var imgArray = [
-    '6.jpg',
-    '7.jpg'],
+    '1.jpg',
+    '2.jpg'],
     curIndex = 0;
     imgDuration = 3000;
 
