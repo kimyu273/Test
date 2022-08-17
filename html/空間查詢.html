@@ -2,26 +2,34 @@
 <html>
     <head>
         <meta charset="UTF-8"></meta>
-        <title>租借資訊|淡江大學租借網站</title>
+        <title>淡江大學租借網站</title>
         <!--網頁標題左側顯示-->
         <link rel="icon" href="tku.ico" type="image/x-icon">
         <!--收藏夾顯示圖示-->
         <link rel="shortcut icon" href="tku.ico" type="image/x-icon">    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        
+        <style>
+        .container-fluid{
+            padding: 0;
+        } 
+        </style>   
     </head>
 
     <body>
         <nav>
             <ul class="flex-nav">
-                <li><img src="https://images.1111.com.tw/discussPic/82/51798282_170010341.680202.png" border="0" width="170" height="45"/></li>
+                <li><img src="https://images.1111.com.tw/discussPic/82/51798282_170010341.680202.png" style="border:0;" width="170" height="45"/></li>
                 &emsp;
                 <li><a href="index.html">首頁</a></li>
                 <li><a href="場地導覽.html">場地導覽</a></li>
                 <li><a href="page3.html">租借資訊</a></li>
                 <li><a href="空間查詢.html">空間查詢</a></li>
-                <li><a href="收費與借用流程.html">收費與借用流程</a></li>
+                <li><a href="收費與借用流程.html">快速瀏覽與預約</a></li>
                 <li><a href="https://space.in.tku.edu.tw/login">立即預約</a></li>
                 &emsp;
-                <li><img src="http://s05.calm9.com/qrcode/2022-08/SKAFGA5G3T.png" border="0" width="50" height="50"/></li>
+                <li><img src="http://s05.calm9.com/qrcode/2022-08/SKAFGA5G3T.png" style="border:0;"width="50" height="50"/></li>
                 &emsp;
                 <div class="contain">
                     <p style="font-size:14px;color:#b22222"><strong>更多資訊請掃LINE客服</strong></p>
@@ -29,63 +37,33 @@
             </ul>
         </nav>
         </body>
-
-        
-    <body>
-        
-        <div class="flex">
-            <div class="slider">
-            <img id="slider" src="https://i.imgur.com/FtpdPgA.png" width="620" height="400">
-            </div>
-            <div class="button2">
-                <div class="i2Style3" style="float:left"><a href="http://spacerental.tku.edu.tw/openfile.aspx?f=0B9EF4364C4742943A6DCD74BEF4A525DC187C8A06C64D8DB2A0B4DD209A6D54CEAC497ECC60BA0E36AC67D199EEB0D8E3A477E513FA179B01041BCB630FC6F044C96B5CAB01D950A7759D55B415DED2F429FBBB1A7E844EFB56B2920CE531A32C54B126449F4C55D0B40C8EBC331547" target="_blank"  style="text-decoration:none;color: inherit">台北校園申請借用場地要點</a></div>
-                <div class="i2Style4" style="float:right"><a href="http://spacerental.tku.edu.tw/openfile.aspx?f=0B9EF4364C4742943A6DCD74BEF4A525DC187C8A06C64D8DB2A0B4DD209A6D54CEAC497ECC60BA0E36AC67D199EEB0D843C9926CD5656E342BE9691FEE400869D0B638A9B950084481663D02550FB68B3BF5BA763CFCC025AE06D20B411CCEC99FD8F5FAB46AC3B5" target="_blank"  style="text-decoration:none;color: inherit">校外單位借用淡水校園場地要點</a></div>
+        <h1 class="text-center">各大樓樓層平面圖</h1>
+        <div class="container-fluid">
+            <!--第一張-->
+            <div class="card mb-3  text-black">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <input type="button" value="守謙國際會議中心一樓" onclick="location.href='守謙國際會議中心一樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                        <br>
+                       <input type="button" value="守謙國際會議中心二樓" onclick="location.href='守謙國際會議中心二樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                       <br>
+                       <input type="button" value="守謙國際會議中心三樓" onclick="location.href='守謙國際會議中心三樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                       <br>
+                       <input type="button" value="守謙國際會議中心四樓" onclick="location.href='守謙國際會議中心四樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                       <br>
+                       <input type="button" value="台北校區二樓" onclick="location.href='台北校區二樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                       <br>
+                       <input type="button" value="台北校區三樓" onclick="location.href='台北校區三樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                       <br>
+                       <input type="button" value="台北校區四樓" onclick="location.href='台北校區四樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+                       <br>
+                       <input type="button" value="台北校區五樓" onclick="location.href='台北校區五樓.html';" style="width:360px;height:40px;font-size:20px;background-color:#FFE4E1;"/>
+   
+                    </div>
+                    
                 </div>
+            </div>
         </div>
-        <style>
-        .flex{
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content:space-evenly;
-            margin-left: 15px;
-            align-items: stretch;
-            margin-top: 0cm;
-        }
-        #slider {
-            opacity:1;
-            transition: opacity 1s; 
-        }
-        
-        #slider.fadeOut {
-            opacity:0;
-        }
-        .slider{
-            display: flex;
-            margin-right: 1cm;
-            justify-content: left;
-            align-items: center;
-            flex:row;
-            margin-top: 1cm;
-        }
-        .contain{
-            display: flex;
-            margin-right: 0.3cm;
-            justify-content: left;
-            align-items: center;
-            flex:row;
-        }
-        .botton2{
-            display: flex;
-            margin-left: 1cm;
-            justify-content: right;
-            align-items: center;
-            flex:column;
-        }
-        </style>
-        
-        <script src="js3.js" width="560" height="400"></script>
-          
-    </body>
 
     <body>
         <div class="bg">
@@ -109,16 +87,6 @@
         align-items: stretch;
         margin-bottom: 0.5cm;
         margin-top: 0.5cm;
-    }
-    .button2{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content:space-evenly;
-        margin-left: 15px;
-        align-items: stretch;
-        margin-bottom: 0.5cm;
-        margin-top: 0.5cm;
-        flex-direction: column
     }
 body {background:#eee;}
 .i2Style{
@@ -187,73 +155,6 @@ box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
     transform: scale(1.05);
   }
 
-
-  .i2Style3{
-font:bold 22px Tahoma, Geneva, sans-serif;
-font-style:normal;
-color:black;
-background:gainsboro;
-border:0px solid #ffffff;
-box-shadow:2px 2px 5px #000000;
--moz-box-shadow:2px 2px 5px #000000;
--webkit-box-shadow:2px 2px 5px #000000;
-border-radius:10px 10px 10px 10px;
--moz-border-radius:10px 10px 10px 10px;
--webkit-border-radius:10px 10px 10px 10px;
-width: 9cm;
-height: 100px;
-padding:16px 41px;
-cursor:pointer;
-margin-right: 1cm;
-display: flex;
-justify-content: center;
-align-items: center;
-flex:column;
-transition: .1s;
-}
-.i2Style3:active{
-cursor:pointer;
-transform: scale(1);
-box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
-}
-.i2Style3:hover {
-    /* :hover 代表滑鼠移到元素上時的狀態 */ 
-    transform: scale(1.05);
-  }
-
-  .i2Style4{
-font:bold 22px Tahoma, Geneva, sans-serif;
-font-style:normal;
-color:black;
-background:gainsboro;
-border:0px solid #ffffff;
-box-shadow:2px 2px 5px #000000;
--moz-box-shadow:2px 2px 5px #000000;
--webkit-box-shadow:2px 2px 5px #000000;
-border-radius:10px 10px 10px 10px;
--moz-border-radius:10px 10px 10px 10px;
--webkit-border-radius:10px 10px 10px 10px;
-width: 9cm;
-height: 100px;
-padding: 16px 41px;
-cursor:pointer;
-display: flex;
-justify-content: center;
-align-items: center;
-flex:column;
-transition: .1s;
-margin-right: 1cm;
-align-items: center;
-}
-.i2Style4:active{
-cursor:pointer;
-transform: scale(1);
-box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
-}
-.i2Style4:hover {
-    /* :hover 代表滑鼠移到元素上時的狀態 */ 
-    transform: scale(1.05);
-  }
 </style>
 </body>
 
@@ -299,6 +200,13 @@ box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
     .flex-nav {
         display: flex;
         justify-content: left;
+    }
+    .pic{
+        display: flex;
+        margin:0cm;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .bg {
             position: fixed;
