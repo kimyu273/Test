@@ -1,5 +1,5 @@
 var imgArray = [
-    'https://i.imgur.com/FtpdPgA.png',
+    'https://i.imgur.com/4vnW9gi.png',
     'https://i.imgur.com/7bC1PvK.png'],
     curIndex = 0;
     imgDuration = 3000;
